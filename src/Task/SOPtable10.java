@@ -1,4 +1,4 @@
-package Task.Task_15122024;
+package Task;
 
 public class SOPtable10 {
     public static void main(String[] args) {

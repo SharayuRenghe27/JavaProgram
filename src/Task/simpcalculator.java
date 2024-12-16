@@ -1,4 +1,4 @@
-package Task.Task_15122024;
+package Task;
 
 public class simpcalculator {
     public static void main(String[] args) {

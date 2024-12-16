@@ -1,4 +1,4 @@
-package Dec.ex_13122024_MainMethod;
+package Dec.MainMethod;
 
 public class Lab002 {
     public static void main(String[] args) {
