@@ -20,6 +20,7 @@ public class Userinput {
         int num1=scanner.nextInt();
         int num2=scanner.nextInt();
         System.out.printf("This no is max- %d",(num1>num2)?num1:num2);
+
         scanner.close();
 
 
