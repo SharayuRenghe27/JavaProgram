@@ -2,9 +2,9 @@ package Task;
 
 import java.util.Scanner;
 
-public class month {
+public class casemonth {
     public static void main(String[] args) {
-        System.out.println("Enter no and I will tell you which month it is");
+        System.out.println("Enter month no and I will tell you which month it is");
 
         Scanner sc=new Scanner(System.in);
         int monthno=sc.nextInt();
@@ -51,8 +51,7 @@ public class month {
                 System.out.println("Add valid input");
                 break;
 
-
-
         }
+        sc.close();
     }
 }
