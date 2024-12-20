@@ -30,6 +30,8 @@ public class ifelsetrangle {
         else
             System.out.println("scalene");
 
+        scanner.close();
+
 
     }
 }
