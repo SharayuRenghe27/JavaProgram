@@ -9,8 +9,10 @@ public class evenodd {
         int a=scanner.nextInt();
         if(a%2==0)
             System.out.println("Its-->Even");
-        else
+        else if (a%2==1)
             System.out.println("Its -->Odd");
+        else
+            System.out.println("Invalid input");
         scanner.close();
 
 
