@@ -11,7 +11,7 @@ public class casemonth {
         switch (monthno)
         {
             case 1:
-                System.out.println("Its January");
+                System.out.println("Its January")   ;
                 break;
             case 2:
                 System.out.println("Its February ");
@@ -50,7 +50,6 @@ public class casemonth {
             default:
                 System.out.println("Add valid input");
                 break;
-
         }
         sc.close();
     }
