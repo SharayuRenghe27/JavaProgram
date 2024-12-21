@@ -1,6 +1,7 @@
-package Task;
+package Task.Dec;
 
 import java.util.Scanner;
+
 
 public class funtioncalculator {
     public static void main(String[] args) {
@@ -12,9 +13,15 @@ public class funtioncalculator {
         System.out.println("Sub->"+sub(a,b));
         System.out.println("Mul->"+mul(a,b));
         System.out.println("div->"+div(a,b));
+        System.out.println("div->"+modules(a,b));
         sc.close();
     }
-public static int add(int a, int b){
+
+    private static int modules(int a, int b) {
+        return a%b;
+    }
+
+    public static int add(int a, int b){
     return a+b;
 }
     public static int sub(int a, int b){

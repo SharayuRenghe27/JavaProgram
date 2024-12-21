@@ -1,4 +1,4 @@
-package Task;
+package Task.Dec;
 
 public class reversonowhile {
     public static void main(String[] args) {

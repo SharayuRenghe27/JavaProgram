@@ -1,4 +1,4 @@
-package Task;
+package Task.Dec;
 
 public class Ternaryop2 {
     public static void main(String[] args) {
