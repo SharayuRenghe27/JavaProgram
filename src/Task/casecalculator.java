@@ -13,10 +13,6 @@ public class casecalculator {
 
         switch (cal)
         {
-//            case1-> System.out.println("001");
-//            case2-> System.out.println("002");
-//            case3-> System.out.println("003");
-//            default-> System.out.println("inva;id");
             case '+':
                 System.out.println(num1+num2);
                 break;
@@ -37,6 +33,10 @@ public class casecalculator {
                 break;
             default:
                 System.out.println("Invalid input");
+                //           case1-> System.out.println("001");
+//            case2-> System.out.println("002");
+//            case3-> System.out.println("003");
+//            default-> System.out.println("inva;id");
         }
         sc.close();
     }
