@@ -8,6 +8,7 @@ public class reversonowhile {
          while (no!=0){
              temp=no%10;
              reverse=reverse*10+temp;
+
              no=no/10;
          }
         System.out.println(reverse);
