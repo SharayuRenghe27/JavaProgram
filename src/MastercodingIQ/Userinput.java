@@ -1,4 +1,4 @@
-package Task.Dec;
+package MastercodingIQ;
 
 import java.util.Scanner;
 

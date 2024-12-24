@@ -1,6 +1,7 @@
 package Dec.MainMethod;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class lab010array {
     public static void main(String[] args) {
@@ -17,9 +18,9 @@ public class lab010array {
         System.out.println(marks[3]);
         System.out.println(marks[4]);
         System.out.println("------------------------");
-        for (int p=0;p<marks.length;p++)
+        for (int l=0;l<marks.length;l++)
         {
-            System.out.println(marks[p]);
+            System.out.println(marks[l]);
         }
         String[] frds=new String[3];
         frds[0]="surabhi";
@@ -30,8 +31,29 @@ public class lab010array {
         int search=Arrays.binarySearch(frds,"sneha");
         System.out.println(search);
 
+        System.out.println("-----------------------");
+
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the size of array");
+        int size=sc.nextInt();
+        int []array2=new int[size];
+        for (int s=0;s<size;s++){
+            System.out.println("Enter the no -");
+            array2[s]=sc.nextInt();
+        }
+
+        System.out.println("Entered array-->");
+        for (int p=0;p<array2.length;p++)
+            System.out.print(" "+array2[p]);
+
+        System.out.println("------------------");
+
         System.out.println("maxi value-->"+givemax(marks));
         System.out.println("min value-->"+givemin(marks));
+
+        for (String name:frds){
+            System.out.println(name);
+        }
 
 
 
