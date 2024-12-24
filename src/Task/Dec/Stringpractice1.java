@@ -5,7 +5,7 @@ public class Stringpractice1 {
 
         String s11= new String("Sharayu");
         String s12="Renghe";
-        System.out.printf(" s1 length -> %d ",s1.length());
+        System.out.printf(" s1 length -> %d ",s11.length());
         //s1.charAt(10);-----> no char present so it will give error (String index out of bound exception)
         String s111=s11.concat("ABC");
         System.out.printf("\n s1 new value -> %s \n",s111);
