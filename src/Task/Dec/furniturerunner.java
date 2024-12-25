@@ -18,6 +18,7 @@ public class furniturerunner {
         System.out.println("Table t1 material---->"+t1.material1);
         t1.detailsdisplay2();
         table t2=new table(10); //parameterized constructor 2 (constructor overloading)
+
         t2.detailsdisplay1();
 
 
