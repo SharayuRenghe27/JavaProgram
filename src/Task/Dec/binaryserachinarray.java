@@ -18,7 +18,7 @@ public class binaryserachinarray {
         int []arr1={78,45,33,90,21};
         for (int i=0;i<arr1.length;i++)
             System.out.print(" "+arr1[i]);
-        System.out.println("serach-->"+Arrays.binarySearch(arr1,33));
+        System.out.println("  serach-->"+Arrays.binarySearch(arr1,33));
 
         Scanner sc=new Scanner(System.in);
         System.out.println("\n Enter the size");
@@ -29,6 +29,9 @@ public class binaryserachinarray {
             System.out.println("Enter the name-->");
             arr2[j]=sc.next();
         }
+        System.out.println("Serch for ?");
+        String s1=sc.next();
+        System.out.println(Arrays.binarySearch(arr2,s1));
 
 
     }
