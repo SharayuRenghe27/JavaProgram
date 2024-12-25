@@ -1,4 +1,4 @@
-package Task.Dec;
+package Task.Oct;
 
 public class SOPtable10 {
     public static void main(String[] args) {

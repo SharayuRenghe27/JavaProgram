@@ -1,4 +1,4 @@
-package Task.Dec;
+package Task.Oct;
 
 public class reversenofor {
     public static void main(String[] args) {

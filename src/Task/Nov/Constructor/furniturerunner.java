@@ -1,4 +1,4 @@
-package Task.Dec;
+package Task.Nov.Constructor;
 
 public class furniturerunner {
     public static void main(String[] args) {
