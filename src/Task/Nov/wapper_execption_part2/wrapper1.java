@@ -1,4 +1,4 @@
-package Task.Nov.static_wrapper_exception;
+package Task.Nov.wapper_execption_part2;
 
 public class wrapper1 {
     public static void main(String[] args) {

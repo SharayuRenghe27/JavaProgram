@@ -1,4 +1,4 @@
-package Task.Nov.static_wrapper_exception;
+package Task.Nov.wapper_execption_part2;
 
 public class conversion {
     public static void main(String[] args) {
