@@ -1,4 +1,4 @@
-package Task.Nov.exceptionpart2;
+package Task.Nov.exceptionpart;
 
 import java.io.File;
 import java.io.FileNotFoundException;

@@ -1,4 +1,4 @@
-package Task.Nov.exceptionpart2;
+package Task.Nov.exceptionpart;
 
 public class runnerbank {
     public static void main(String[] args) throws Exception {

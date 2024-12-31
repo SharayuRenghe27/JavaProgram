@@ -1,4 +1,4 @@
-package Task.Nov.exceptionpart2;
+package Task.Nov.exceptionpart;
 
 public class Bank {
     public Bank(String currency, int amount) {
