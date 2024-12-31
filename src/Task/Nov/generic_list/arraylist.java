@@ -36,6 +36,8 @@ public class arraylist {
         while (iterator.hasNext()){
             System.out.println(iterator.next());
         }
+        //  Selenium -  -> Store and Insertion and Deletion - DS - LL
+        // API Testing - STORE, access it fast. -> AL
 
 
     }
